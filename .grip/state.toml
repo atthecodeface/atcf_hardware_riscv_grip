@@ -1,0 +1,27 @@
+[all.grip]
+changeset = "0f089056427c3c356ba5424b37c96795e6c3d319"
+branch = "master"
+
+[all.atcf_hardware_std]
+changeset = "9fa050810b6b598fa6f1336c72d241c5e1f46b5c"
+branch = "master"
+
+[all.atcf_hardware_apb]
+changeset = "8d6152d3ca8792f39eb952a6d7d22da72c4d80aa"
+branch = "master"
+
+[all.atcf_hardware_video]
+changeset = "e96f5cad97b0fc0c740111ca907f4d9411fef6bf"
+branch = "master"
+
+[all.atcf_hardware_utils]
+changeset = "59dd2f4902514349678131459eddd051c505b116"
+branch = "master"
+
+[all.atcf_fpga]
+changeset = "b9eadb16488cce4194387b63d4143cc3ac98de72"
+branch = "master"
+
+[all.atcf_hardware]
+changeset = "7f7e7a5c4b0520a67d4d196f5907316a275a4496"
+branch = "master"
