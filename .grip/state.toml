@@ -25,3 +25,15 @@ branch = "master"
 [all.atcf_hardware]
 changeset = "7f7e7a5c4b0520a67d4d196f5907316a275a4496"
 branch = "master"
+
+[all.atcf_hardware_ethernet]
+changeset = "e11b75edc00d5a648fbd9df1634f2eab45f1b17d"
+branch = "master"
+
+[all.atcf_hardware_jtag]
+changeset = "a4ad46381e2690dc4beed578885829cb23e25e18"
+branch = "master"
+
+[all.atcf_hardware_riscv]
+changeset = "4a7cbbf4bcf452852275ceaa026241ab2921c9da"
+branch = "master"
