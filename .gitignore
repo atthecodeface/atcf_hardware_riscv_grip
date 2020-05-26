@@ -1,0 +1,11 @@
+.grip/local.*
+atcf_fpga
+atcf_hardware_apb
+atcf_hardware_std
+atcf_hardware_utils
+atcf_hardware_jtag
+atcf_hardware_ethernet
+atcf_hardware_video
+atcf_hardware_riscv
+*~
+

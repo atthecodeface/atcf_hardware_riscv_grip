@@ -3,7 +3,7 @@ configs=["all", "sim"]
 default_config="all"
 base_repos=["atcf_hardware_std", "atcf_hardware_apb", "atcf_hardware_video", "atcf_hardware_utils"]
 workflow="single"
-stages=["configure", "build_sim", "build_verilog"]
+stages=["configure", "build", "build_sim", "build_verilog"]
 doc="""
 This repository is for building, testing and running the RISC-V implementations in CDL
 
