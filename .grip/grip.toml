@@ -1,9 +1,9 @@
 name="atcf_hardware_riscv"
 configs=["all", "sim"]
 default_config="all"
-base_repos=["atcf_hardware_std", "atcf_hardware_apb", "atcf_hardware_video", "atcf_hardware_utils", "atcf_hardware_jtag", "atcf_hardware_ethernet", "atcf_hardware_riscv"]
+base_repos=["atcf_hardware_std", "atcf_hardware_apb", "atcf_hardware_video",  "atcf_hardware_crypto",  "atcf_hardware_i2c", "atcf_hardware_utils", "atcf_hardware_jtag", "atcf_hardware_analyzer", "atcf_hardware_clocking", "atcf_hardware_networking", "atcf_hardware_ethernet", "atcf_hardware_reve_r", "atcf_hardware_vcu108", "atcf_hardware_riscv"]
 workflow="single"
-stages=["configure", "build", "build_sim", "build_verilog"]
+stages=["clean", "build", "build_sim", "build_verilog", "smoke_test"]
 doc="""
 This repository is for building, testing and running the RISC-V implementations in CDL
 
@@ -28,6 +28,23 @@ repos=[]
 
 [config.all]
 repos=["atcf_fpga"]
+
+[config.all.stage.clean]
+# stage.clean.requires = ["atcf_hardware_std.clean_sim"]
+env.SRC_ROOT     = "@GRIP_ROOT_PATH@/atcf_hardware_riscv @GRIP_ROOT_PATH@/atcf_hardware_utils"
+env.MAKE_OPTIONS = "-f @GRIP_ROOT_PATH@/atcf_hardware_video/Makefile SRC_ROOT='@SRC_ROOT@' BUILD_ROOT=@BUILD_DIR@  LDFLAGS='-lpng -ljpeg'"
+exec="mkdir -p @BUILD_DIR@ && cd @BUILD_DIR@ && make @MAKE_OPTIONS@ clean"
+action="yes"
+
+[config.all.stage.build]
+# requires=["clean_all_sim"]
+env.SRC_ROOT     = "'@GRIP_ROOT_PATH@/atcf_hardware_riscv @GRIP_ROOT_PATH@/atcf_hardware_utils'"
+wd="@BUILD_DIR@"
+exec="mkdir -p @BUILD_DIR@ && cd @BUILD_DIR@ && make -f @GRIP_ROOT_PATH@/atcf_hardware_video/Makefile SRC_ROOT=@SRC_ROOT@ BUILD_ROOT=@BUILD_DIR@  LDFLAGS='-lpng -ljpeg' -j8 all"
+action="yes"
+
+[config.all.stage.smoke]
+action="yes"
 
 [repo.atcf_hardware_std]
 url="@REPO_HOST@atcf_hardware_std.git"
@@ -59,16 +76,58 @@ branch="master"
 path="atcf_hardware_jtag"
 workflow="single"
 
+[repo.atcf_hardware_analyzer]
+url="@REPO_HOST@atcf_hardware_analyzer.git"
+branch="master"
+path="atcf_hardware_analyzer"
+workflow="single"
+
+[repo.atcf_hardware_clocking]
+url="@REPO_HOST@atcf_hardware_clocking.git"
+branch="master"
+path="atcf_hardware_clocking"
+workflow="single"
+
+[repo.atcf_hardware_crypto]
+url="@REPO_HOST@atcf_hardware_crypto.git"
+branch="master"
+path="atcf_hardware_crypto"
+workflow="single"
+
+[repo.atcf_hardware_i2c]
+url="@REPO_HOST@atcf_hardware_i2c.git"
+branch="master"
+path="atcf_hardware_i2c"
+workflow="single"
+
+[repo.atcf_hardware_networking]
+url="@REPO_HOST@atcf_hardware_networking.git"
+branch="master"
+path="atcf_hardware_networking"
+workflow="single"
+
 [repo.atcf_hardware_ethernet]
 url="@REPO_HOST@atcf_hardware_ethernet.git"
 branch="master"
 path="atcf_hardware_ethernet"
 workflow="single"
 
+[repo.atcf_hardware_reve_r]
+url="@REPO_HOST@atcf_hardware_reve_r.git"
+branch="master"
+path="atcf_hardware_reve_r"
+workflow="single"
+
 [repo.atcf_hardware_riscv]
 url="@REPO_HOST@atcf_hardware_riscv.git"
 branch="master"
 path="atcf_hardware_riscv"
+workflow="single"
+
+[repo.atcf_hardware_vcu108]
+url="@REPO_HOST@atcf_hardware_vcu108.git"
+branch="master"
+path="atcf_hardware_vcu108"
 workflow="single"
 
 [repo.atcf_fpga]
