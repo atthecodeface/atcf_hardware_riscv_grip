@@ -1,7 +1,7 @@
 name="atcf_hardware_riscv"
 configs=["all", "sim"]
 default_config="all"
-base_repos=["atcf_hardware_std", "atcf_hardware_apb", "atcf_hardware_video", "atcf_hardware_utils"]
+base_repos=["atcf_hardware_std", "atcf_hardware_apb", "atcf_hardware_video", "atcf_hardware_utils", "atcf_hardware_jtag", "atcf_hardware_ethernet", "atcf_hardware_riscv"]
 workflow="single"
 stages=["configure", "build", "build_sim", "build_verilog"]
 doc="""
@@ -51,6 +51,24 @@ workflow="single"
 url="@REPO_HOST@atcf_hardware_utils.git"
 branch="master"
 path="atcf_hardware_utils"
+workflow="single"
+
+[repo.atcf_hardware_jtag]
+url="@REPO_HOST@atcf_hardware_jtag.git"
+branch="master"
+path="atcf_hardware_jtag"
+workflow="single"
+
+[repo.atcf_hardware_ethernet]
+url="@REPO_HOST@atcf_hardware_ethernet.git"
+branch="master"
+path="atcf_hardware_ethernet"
+workflow="single"
+
+[repo.atcf_hardware_riscv]
+url="@REPO_HOST@atcf_hardware_riscv.git"
+branch="master"
+path="atcf_hardware_riscv"
 workflow="single"
 
 [repo.atcf_fpga]
