@@ -37,3 +37,31 @@ branch = "master"
 [all.atcf_hardware_riscv]
 changeset = "4a7cbbf4bcf452852275ceaa026241ab2921c9da"
 branch = "master"
+
+[all.atcf_hardware_crypto]
+changeset = "6baa8c72a529f4c887d56e285cab6f8ecd67935f"
+branch = "master"
+
+[all.atcf_hardware_analyzer]
+changeset = "140e2bd6b186bd4a59b6467619e7ef836ab25acb"
+branch = "master"
+
+[all.atcf_hardware_vcu108]
+changeset = "2b00050f90dcdd6ee8375cf9dfae8b5ed99b40ff"
+branch = "master"
+
+[all.atcf_hardware_clocking]
+changeset = "b7e587de54adeef0f8e5f6fc64ed2f3c6f4dd22e"
+branch = "master"
+
+[all.atcf_hardware_reve_r]
+changeset = "a4158f2ae6cc469418365a0c27f754ca0f31597e"
+branch = "master"
+
+[all.atcf_hardware_networking]
+changeset = "72134d282775cc239341396d42ead7025e47607e"
+branch = "master"
+
+[all.atcf_hardware_i2c]
+changeset = "6d6c113b428b1e560e8474140ef430f14b96612b"
+branch = "master"
