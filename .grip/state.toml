@@ -27,11 +27,11 @@ changeset = "7f7e7a5c4b0520a67d4d196f5907316a275a4496"
 branch = "master"
 
 [all.atcf_hardware_ethernet]
-changeset = "e11b75edc00d5a648fbd9df1634f2eab45f1b17d"
+changeset = "22e9e3a1fff85a36ba5e3b8f1e46c5c49f783c0c"
 branch = "master"
 
 [all.atcf_hardware_jtag]
-changeset = "a4ad46381e2690dc4beed578885829cb23e25e18"
+changeset = "f8eea123f543cac4fb1d4e599b55628559849008"
 branch = "master"
 
 [all.atcf_hardware_riscv]
