@@ -63,5 +63,5 @@ changeset = "9f3f00ec8747e37fee0892ed12131e435fb0e802"
 branch = "master"
 
 [all.atcf_hardware_i2c]
-changeset = "6d6c113b428b1e560e8474140ef430f14b96612b"
+changeset = "344dfdd68a7177f78f0374ac5226029473592963"
 branch = "master"
