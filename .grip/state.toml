@@ -7,7 +7,7 @@ changeset = "bcd1b9a0a17f4a5f626055b0dd2041ad23c122d9"
 branch = "master"
 
 [all.atcf_hardware_apb]
-changeset = "24a49efed518d68eec2fa0b10306e19c3e70b92f"
+changeset = "bd63c69cf6a9e3a09fc62a30ae316d5bdc80e4d9"
 branch = "master"
 
 [all.atcf_hardware_video]
@@ -27,15 +27,15 @@ changeset = "7f7e7a5c4b0520a67d4d196f5907316a275a4496"
 branch = "master"
 
 [all.atcf_hardware_ethernet]
-changeset = "aceb4326029aa13a9424ffc38d095cdd6c72351e"
+changeset = "7f732bd0050b9128faedace1d49fd12940b5e53b"
 branch = "master"
 
 [all.atcf_hardware_jtag]
-changeset = "f8eea123f543cac4fb1d4e599b55628559849008"
+changeset = "dd9458fbdf0401b683b63ba1ca30cd6aee943ddb"
 branch = "master"
 
 [all.atcf_hardware_riscv]
-changeset = "10eb946f9d3514d2c4842377ac19c8cc62715a92"
+changeset = "2e09c78c6720f51954b169b99a9cb72e5c8fa3cc"
 branch = "master"
 
 [all.atcf_hardware_crypto]
@@ -51,7 +51,7 @@ changeset = "0099397ada9c47a288913f58dec9a2f9110bfa0f"
 branch = "master"
 
 [all.atcf_hardware_clocking]
-changeset = "536d722eaf8b26b80d4122c2343479332e6df021"
+changeset = "60572b533e2fe4cd7f8d1b8e7ca0b0813ce04c37"
 branch = "master"
 
 [all.atcf_hardware_reve_r]
@@ -63,5 +63,5 @@ changeset = "9f3f00ec8747e37fee0892ed12131e435fb0e802"
 branch = "master"
 
 [all.atcf_hardware_i2c]
-changeset = "344dfdd68a7177f78f0374ac5226029473592963"
+changeset = "a74f44cdf0d4e4b24348fb6ec2d07b6df0b393ce"
 branch = "master"
