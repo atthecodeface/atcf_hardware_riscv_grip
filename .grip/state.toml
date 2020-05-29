@@ -7,7 +7,7 @@ changeset = "bcd1b9a0a17f4a5f626055b0dd2041ad23c122d9"
 branch = "master"
 
 [all.atcf_hardware_apb]
-changeset = "bd63c69cf6a9e3a09fc62a30ae316d5bdc80e4d9"
+changeset = "e3b57a1d205b02930379cea0aebd8f4de25376e9"
 branch = "master"
 
 [all.atcf_hardware_video]
@@ -63,5 +63,5 @@ changeset = "9f3f00ec8747e37fee0892ed12131e435fb0e802"
 branch = "master"
 
 [all.atcf_hardware_i2c]
-changeset = "a74f44cdf0d4e4b24348fb6ec2d07b6df0b393ce"
+changeset = "f6237e9b6216ce6090abd26135f98d445f3c9cf9"
 branch = "master"
