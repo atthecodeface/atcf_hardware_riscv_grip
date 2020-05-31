@@ -11,11 +11,11 @@ changeset = "d8d036597810196cd6b352de1ca2412ac9fca1fe"
 branch = "master"
 
 [all.atcf_hardware_video]
-changeset = "75bfbfe0399aa6c77f6e6b932f30293936073ac9"
+changeset = "b398b75dad07939a4bb44af1bdc95f3c2eb57115"
 branch = "master"
 
 [all.atcf_hardware_utils]
-changeset = "15caceafe64e099c0b1538354c858f89b1350b8c"
+changeset = "2647ae2daafce8a8d8f2b4211382072651de0f51"
 branch = "master"
 
 [all.atcf_fpga]
@@ -35,7 +35,7 @@ changeset = "eb7425349bf75ffb50fc4cb49f05a34cef6c9fee"
 branch = "master"
 
 [all.atcf_hardware_riscv]
-changeset = "6faec11dddc35325c9f1fb972c81ddc2bf10bcb8"
+changeset = "fcc4d2c8777f537bdd4c04dace6f01cfdefb9eab"
 branch = "master"
 
 [all.atcf_hardware_crypto]
@@ -55,7 +55,7 @@ changeset = "e2e07dc7d98d530a3b8554febd9ce33038b66ee3"
 branch = "master"
 
 [all.atcf_hardware_reve_r]
-changeset = "a4158f2ae6cc469418365a0c27f754ca0f31597e"
+changeset = "8aff4d339d6da4999f99e3f6b9b1b3312cb5ce09"
 branch = "master"
 
 [all.atcf_hardware_networking]
