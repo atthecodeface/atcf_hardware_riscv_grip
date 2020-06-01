@@ -31,7 +31,7 @@ changeset = "7f732bd0050b9128faedace1d49fd12940b5e53b"
 branch = "master"
 
 [all.atcf_hardware_jtag]
-changeset = "60e8332d3a00d65d4ea5b39819276e007511cd88"
+changeset = "0cd1e4ab35c4f51dc49a9b391397d5ca568c7ecc"
 branch = "master"
 
 [all.atcf_hardware_riscv]
