@@ -15,7 +15,7 @@ changeset = "b398b75dad07939a4bb44af1bdc95f3c2eb57115"
 branch = "master"
 
 [all.atcf_hardware_utils]
-changeset = "cee758af208c9d88d7de31b453d3ad81595f7bac"
+changeset = "15ee0a8196f181a1739214cf4df53ddd9a24e7e4"
 branch = "master"
 
 [all.atcf_fpga]
@@ -35,7 +35,7 @@ changeset = "0cd1e4ab35c4f51dc49a9b391397d5ca568c7ecc"
 branch = "master"
 
 [all.atcf_hardware_riscv]
-changeset = "fcc4d2c8777f537bdd4c04dace6f01cfdefb9eab"
+changeset = "80e706a175d193e146c6f5cbdad13b8e245f90cb"
 branch = "master"
 
 [all.atcf_hardware_crypto]
@@ -59,7 +59,7 @@ changeset = "8aff4d339d6da4999f99e3f6b9b1b3312cb5ce09"
 branch = "master"
 
 [all.atcf_hardware_networking]
-changeset = "9f3f00ec8747e37fee0892ed12131e435fb0e802"
+changeset = "322d4cb3253e4254d58de9ba4b088c74368b48c1"
 branch = "master"
 
 [all.atcf_hardware_i2c]
