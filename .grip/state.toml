@@ -27,7 +27,7 @@ changeset = "7f7e7a5c4b0520a67d4d196f5907316a275a4496"
 branch = "master"
 
 [all.atcf_hardware_ethernet]
-changeset = "7f732bd0050b9128faedace1d49fd12940b5e53b"
+changeset = "2e165f3549436f53015427c88e55b7ab34bdc8eb"
 branch = "master"
 
 [all.atcf_hardware_jtag]
