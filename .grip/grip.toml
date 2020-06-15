@@ -40,7 +40,7 @@ action="yes"
 # requires=["clean_all_sim"]
 env.SRC_ROOT     = "'@GRIP_ROOT_PATH@/atcf_hardware_riscv @GRIP_ROOT_PATH@/atcf_hardware_utils'"
 wd="@BUILD_DIR@"
-exec="mkdir -p @BUILD_DIR@ && cd @BUILD_DIR@ && make -f @GRIP_ROOT_PATH@/atcf_hardware_video/Makefile SRC_ROOT=@SRC_ROOT@ BUILD_ROOT=@BUILD_DIR@  LDFLAGS='-lpng -ljpeg' -j8 all"
+exec="mkdir -p @BUILD_DIR@ && cd @BUILD_DIR@ && make -f @GRIP_ROOT_PATH@/atcf_hardware_video/Makefile SRC_ROOT=@SRC_ROOT@ BUILD_ROOT=@BUILD_DIR@  CXXFLAGS='-g -std=c++11' LDFLAGS='-g -lpng -ljpeg' -j8 all"
 action="yes"
 
 [config.all.stage.smoke]
